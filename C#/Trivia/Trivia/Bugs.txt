@@ -1,0 +1,16 @@
+Write Tests to achieve ~100% coverage
+
+A Game could have less than two players - make sure it always has at least two.
+
+A Game could have 7 players, make it have at most 6.
+
+A player that get’s into prison always stays there
+    Other than just fixing the issue, try to understand what’s wrong with the design and fix the root cause
+
+The deck could run out of questions
+    Make sure that can’t happen (a deck with 1 billion questions is cheating :)
+
+Introducing new categories of questions seems like tricky business.  Refactor to add a new category
+    Could you make sure all places have the “right” question and that the distribution is always correct?
+
+Similarly changing the board size greatly affects the questions distribution

@@ -11,10 +11,12 @@ namespace Trivia
         {
             var aGame = new Game();
 
-            aGame.Add("Chet");
-            aGame.Add("Pat");
-            aGame.Add("Sue");
+            AddPlayers(aGame);
+            PlayGame(aGame);
+        }
 
+        private static void PlayGame(Game aGame)
+        {
             var rand = new Random();
 
             do
@@ -23,6 +25,13 @@ namespace Trivia
 
                 _notAWinner = rand.Next(9) == 7 ? aGame.WrongAnswer() : aGame.WasCorrectlyAnswered();
             } while (_notAWinner);
+        }
+
+        private static void AddPlayers(Game aGame)
+        {
+            aGame.Add("Chet");
+            aGame.Add("Pat");
+            aGame.Add("Sue");
         }
     }
 }
