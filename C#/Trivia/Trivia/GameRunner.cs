@@ -1,49 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using UglyTrivia;
 
 namespace Trivia
 {
     public class GameRunner
     {
+        private static bool _notAWinner;
 
-        private static bool notAWinner;
-
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
-            Game aGame = new Game();
+            var aGame = new Game();
 
-            aGame.add("Chet");
-            aGame.add("Pat");
-            aGame.add("Sue");
+            aGame.Add("Chet");
+            aGame.Add("Pat");
+            aGame.Add("Sue");
 
-            Random rand = new Random();
+            var rand = new Random();
 
             do
             {
+                aGame.Roll(rand.Next(5) + 1);
 
-                aGame.roll(rand.Next(5) + 1);
-
-                if (rand.Next(9) == 7)
-                {
-                    notAWinner = aGame.wrongAnswer();
-                }
-                else
-                {
-                    notAWinner = aGame.wasCorrectlyAnswered();
-                }
-
-
-
-            } while (notAWinner);
-
+                _notAWinner = rand.Next(9) == 7 ? aGame.WrongAnswer() : aGame.WasCorrectlyAnswered();
+            } while (_notAWinner);
         }
-
-
     }
-
 }
-

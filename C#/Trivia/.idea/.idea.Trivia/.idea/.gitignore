@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/.idea.Trivia.iml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea
+# Datasource local storage ignored files
+/../../../../../../../../:\devprojects\trivia\C#\Trivia\.idea\.idea.Trivia\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
