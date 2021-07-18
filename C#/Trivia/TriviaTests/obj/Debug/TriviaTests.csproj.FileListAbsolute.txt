@@ -1,0 +1,11 @@
+D:\devprojects\trivia\C#\Trivia\TriviaTests\bin\Debug\TriviaTests.dll
+D:\devprojects\trivia\C#\Trivia\TriviaTests\bin\Debug\TriviaTests.pdb
+D:\devprojects\trivia\C#\Trivia\TriviaTests\bin\Debug\nunit.framework.dll
+D:\devprojects\trivia\C#\Trivia\TriviaTests\bin\Debug\Trivia.exe
+D:\devprojects\trivia\C#\Trivia\TriviaTests\bin\Debug\Trivia.pdb
+D:\devprojects\trivia\C#\Trivia\TriviaTests\bin\Debug\nunit.framework.xml
+D:\devprojects\trivia\C#\Trivia\TriviaTests\obj\Debug\TriviaTests.csprojAssemblyReference.cache
+D:\devprojects\trivia\C#\Trivia\TriviaTests\obj\Debug\TriviaTests.csproj.CoreCompileInputs.cache
+D:\devprojects\trivia\C#\Trivia\TriviaTests\obj\Debug\TriviaTests.csproj.CopyComplete
+D:\devprojects\trivia\C#\Trivia\TriviaTests\obj\Debug\TriviaTests.dll
+D:\devprojects\trivia\C#\Trivia\TriviaTests\obj\Debug\TriviaTests.pdb
